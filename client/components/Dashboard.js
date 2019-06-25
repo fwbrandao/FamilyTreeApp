@@ -4,7 +4,7 @@ class Dashboard extends Component {
     // state = {  }
     render() {
         return (
-            <div>
+            <div className="container center">
                 <h2>Family Tree App</h2>
             </div>
         );

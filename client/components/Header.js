@@ -41,10 +41,10 @@ class Header extends Component {
 
     render() {
         return (
-            <nav>
+            <nav className="teal lighten-2">
                 <div className="nav-wrapper">
                     <Link to="/" className="brand-logo left">
-                        Home
+                        FamilyTree
                     </Link>
                     <ul className="right">
                         {this.renderButton()}

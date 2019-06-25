@@ -37,11 +37,13 @@ class SignupForm extends Component {
 
     render() {
         return (
-            <div>
+            <div className="container">
+            <div className="center-align">
                 <h3>Sign Up</h3>
                 <AuthForm
                 errors={this.state.errors}
                 onSubmit={this.onSubmit.bind(this)}/>
+            </div>
             </div>
         );
     }
