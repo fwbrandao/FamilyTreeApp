@@ -7,7 +7,7 @@ const App = (props) => {
     return (
         <did className="container">
             <Header />
-            <Home />
+            {/* <Home /> */}
             {props.children}
         </did>
     );

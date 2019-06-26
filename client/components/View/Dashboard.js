@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import TreeView from './TreeView';
 
 class Dashboard extends Component {
     // state = {  }
@@ -6,6 +7,7 @@ class Dashboard extends Component {
         return (
             <div className="container center">
                 <h2>Family Tree App</h2>
+                <TreeView />
             </div>
         );
     }

@@ -9,7 +9,7 @@ class Header extends Component {
 
     onLogoutClick() {
         this.props.mutate({
-            refetchQuery: [{ query }]
+            refetchQueries: [{ query }]
         });
     }
 

@@ -6,7 +6,7 @@ import ApolloClient, { createNetworkInterface } from 'apollo-client';
 import { ApolloProvider } from 'react-apollo';
 
 import App from './components/App';
-import Dashboard from './components/Dashboard';
+import Dashboard from './components/View/Dashboard';
 import LoginForm from './components/LoginForm';
 import SignupForm from './components/SignupForm';
 import requireAuth from './components/requireAuth';
