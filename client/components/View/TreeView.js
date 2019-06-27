@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 // import CartIcon from './spacex.jpg';
 
 class TreeView extends Component {
-    // state = {  }
     render() {
         return (
             <div >
