@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import CartIcon from './spacex.jpg';
+// import CartIcon from './spacex.jpg';
 
 class TreeView extends Component {
     // state = {  }
@@ -11,7 +11,7 @@ class TreeView extends Component {
                     <div className="col s12 m6">
                     <div className="card">
                         <div className="card-image">
-                        <img src={CartIcon} alt="image" width="100" height="50"/>
+                        {/* <img src={CartIcon} alt="image" width="100" height="50"/> */}
                         <span className="card-title">Card Title</span>
                         <a className="btn-floating halfway-fab waves-effect waves-light red"><i className="material-icons">add</i></a>
                         </div>
